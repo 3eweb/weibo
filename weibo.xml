@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>Weibo</name>
+    <author>YuLei</author>
+	<author>zhangzhongkai</author>
+    <creationDate>2013/4</creationDate>
+    <copyright>Copyleft (C) 2011 zhangzhongkai. No rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>yulei_vsc@yahoo.com.cn</authorEmail>
+    <authorUrl>http://blog.sina.com.cn/yuleishanghai</authorUrl>
+    <version>0.8.6</version>
+    <description>DESCCONTENTWEIBO</description>
+    <installfile>install15.com_weibo.php</installfile>
+    <uninstallfile>uninstall15.com_weibo.php</uninstallfile>
+    <scriptfile>install.com_weibo.php</scriptfile>
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>weibo.php</filename>
+        <filename>weibolib.php</filename>
+        <filename>controller.php</filename>
+        <filename>weibo.tencent.php</filename>
+        <filename>weibo.163.php</filename>
+        <filename>weibo.qq.php</filename>
+        <filename>weibo.sina.php</filename>
+        <filename>weibo.twitter.php</filename>
+        <folder>views</folder>
+        <folder>images</folder>
+    </files>
+    <administration>
+        <files folder="admin">
+            <filename>admin.weibo.html.php</filename>
+            <filename>admin.weibo.php</filename>
+            <filename>weibolib.php</filename>
+            <filename>weibo.tencent.php</filename>
+            <filename>weibo.163.php</filename>
+            <filename>weibo.sina.php</filename>
+            <filename>weibo.twitter.php</filename>
+            <filename>index.html</filename>
+            <filename>mod_weibologin.zip</filename>
+            <filename>plg_authentication_weibo.zip</filename>
+            <filename>plg_content_weibo.zip</filename>
+        </files>
+        <languages folder="admin">
+            <language tag="zh-CN">language/zh-CN/zh-CN.com_weibo.sys.ini</language>
+            <language tag="zh-CN">zh-CN.com_weibo.ini</language>
+            <language tag="en-GB">language/en-GB/en-GB.com_weibo.sys.ini</language>
+            <language tag="en-GB">en-GB.com_weibo.ini</language>
+        </languages>
+
+    </administration>
+    <updateservers>
+        <server type="extension" priority="1" name="Joomla Weibo Update Site">http://joomla-weibo.googlecode.com/files/weibo-update.xml</server>
+    </updateservers>
+</extension>
